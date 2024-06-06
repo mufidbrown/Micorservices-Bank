@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14458299-b9a5-4ee5-9fb6-48934ece6b8f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/microservices/bank/bank/BankApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/microservices/bank/bank/BankApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-core-service-registry/src/main/java/com/mufid/finance/BankingCoreServiceRegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/banking-core-service-registry/src/main/java/com/mufid/finance/BankingCoreServiceRegistryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banking-core-service-registry/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/banking-core-service-registry/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/banking-core-service-registry">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/internet-banking-api-gateway">
       <ProjectState />
     </projectState>
   </component>
@@ -39,12 +38,28 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="banking-core-service-registry" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="internet-banking-api-gateway" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,14 +85,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Focusing/Microservices-Bank/banking-core-service-registry",
+    "last_opened_file_path": "D:/Focusing/Microservices-Bank/internet-banking-api-gateway",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mufid.finance.internet_banking_api_gateway" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.InternetBankingApiGatewayApplication">
     <configuration name="BankingCoreServiceRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="banking-core-service-registry.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mufid.finance.BankingCoreServiceRegistryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InternetBankingApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="internet-banking-api-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mufid.finance.internet_banking_api_gateway.InternetBankingApiGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,11 +118,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717700306301</updated>
-      <workItem from="1717700308028" duration="704000" />
+      <workItem from="1717700308028" duration="1951000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
