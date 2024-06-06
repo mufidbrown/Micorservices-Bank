@@ -1,13 +1,13 @@
-package com.microservices.bank.bank;
+package com.mufid.finance;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BankApplication {
+public class BankingCoreServiceRegistryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BankApplication.class, args);
+		SpringApplication.run(BankingCoreServiceRegistryApplication.class, args);
 	}
 
 }
