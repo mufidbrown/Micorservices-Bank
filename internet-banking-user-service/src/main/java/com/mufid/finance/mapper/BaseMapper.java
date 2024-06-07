@@ -1,11 +1,10 @@
 package com.mufid.finance.mapper;
 
-import com.mufid.finance.dto.User;
-
 import java.util.Collection;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
+
 
 public abstract class BaseMapper<E, D> {
 
@@ -25,7 +24,7 @@ public abstract class BaseMapper<E, D> {
         return convertToEntity(dto, args).stream().collect(Collectors.toList());
     }
 
-    public List<User> convertToDtoList(Collection<E> entity, Object... args) {
+    public List<D> convertToDtoList(Collection<E> entity, Object... args) {
         return convertToDto(entity, args).stream().collect(Collectors.toList());
     }
 
@@ -36,5 +35,6 @@ public abstract class BaseMapper<E, D> {
     public Set<D> convertToDtoSet(Collection<E> entity, Object... args) {
         return convertToDto(entity, args).stream().collect(Collectors.toSet());
     }
+
 
 }
