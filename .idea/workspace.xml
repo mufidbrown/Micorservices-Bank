@@ -5,16 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14458299-b9a5-4ee5-9fb6-48934ece6b8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banking-core-service-registry/src/main/java/com/mufid/finance/BankingCoreServiceRegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/banking-core-service-registry/src/main/java/com/mufid/finance/BankingCoreServiceRegistryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banking-core-service-registry/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/banking-core-service-registry/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet-banking-api-gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-api-gateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet-banking-api-gateway/src/main/java/com/mufid/finance/internet_banking_api_gateway/InternetBankingApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-api-gateway/src/main/java/com/mufid/finance/internet_banking_api_gateway/InternetBankingApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet-banking-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-api-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$USER_HOME$/Downloads/banking-core-service-registry">
@@ -24,6 +31,12 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/internet-banking-api-gateway">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/internet-banking-service-registry">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/internet-banking-user-service">
       <ProjectState />
     </projectState>
   </component>
@@ -36,6 +49,9 @@
         <task path="$PROJECT_DIR$/banking-core-service-registry">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/internet-banking-api-gateway">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -45,7 +61,7 @@
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="internet-banking-api-gateway" type="f1a62948:ProjectNode" />
+                <item name="internet-banking-service-registry" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -58,6 +74,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -82,11 +100,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Focusing/Microservices-Bank/internet-banking-api-gateway",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "D:/Focusing/Microservices-Bank/internet-banking-user-service",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "4be4c8fb53072ce2aba719ee296b25b7"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -94,7 +118,7 @@
       <recent name="com.mufid.finance.internet_banking_api_gateway" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.InternetBankingApiGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.BankingCoreServiceRegistryApplication">
     <configuration name="BankingCoreServiceRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="banking-core-service-registry.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mufid.finance.BankingCoreServiceRegistryApplication" />
@@ -109,6 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InternetBankingUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="internet-banking-user-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mufid.finance.InternetBankingUserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -118,7 +149,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717700306301</updated>
-      <workItem from="1717700308028" duration="1951000" />
+      <workItem from="1717700308028" duration="7266000" />
+      <workItem from="1717739451174" duration="872000" />
     </task>
     <servers />
   </component>

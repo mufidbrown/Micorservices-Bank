@@ -1,14 +1,13 @@
-package com.mufid.finance.internet_banking_api_gateway;
+package com.mufid.finance;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 @SpringBootApplication
-public class InternetBankingApiGatewayApplication {
+public class InternetBankingUserServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InternetBankingApiGatewayApplication.class, args);
+		SpringApplication.run(InternetBankingUserServiceApplication.class, args);
 	}
 
 }

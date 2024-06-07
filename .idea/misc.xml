@@ -5,6 +5,8 @@
     <file type="web" url="file://$USER_HOME$/Downloads/banking-core-service-registry" />
     <file type="web" url="file://$PROJECT_DIR$/banking-core-service-registry" />
     <file type="web" url="file://$PROJECT_DIR$/internet-banking-api-gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/internet-banking-service-registry" />
+    <file type="web" url="file://$PROJECT_DIR$/internet-banking-user-service" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
