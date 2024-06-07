@@ -18,6 +18,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="internet-banking-service-registry" target="17" />
+      <module name="internet-banking-service-registry.main" target="17" />
+      <module name="internet-banking-service-registry.test" target="17" />
       <module name="Microservices-Bank.banking-core-service-registry" target="17" />
       <module name="Microservices-Bank.banking-core-service-registry.main" target="17" />
       <module name="Microservices-Bank.banking-core-service-registry.test" target="17" />

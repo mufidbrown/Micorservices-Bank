@@ -23,15 +23,6 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/internet-banking-service-registry" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/internet-banking-service-registry" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/internet-banking-user-service" />
         <option name="modules">
           <set>

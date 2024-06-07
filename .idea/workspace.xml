@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14458299-b9a5-4ee5-9fb6-48934ece6b8f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internet-banking-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-api-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internet-banking-user-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-user-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internet-banking-user-service/src/main/java/com/mufid/finance/mapper/BaseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-user-service/src/main/java/com/mufid/finance/mapper/BaseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet-banking-user-service/src/main/java/com/mufid/finance/service/KeycloakUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-user-service/src/main/java/com/mufid/finance/service/KeycloakUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internet-banking-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-user-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +59,7 @@
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="internet-banking-service-registry" type="f1a62948:ProjectNode" />
+                <item name="internet-banking-user-service" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -107,7 +109,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/Focusing/Microservices-Bank/internet-banking-user-service",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "78c041e4b42b7ffdcfd66c70ce235245"
+    "spring.configuration.checksum": "5b65f8d11c6e739eeb40ab85a3991055"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -148,7 +150,8 @@
       <updated>1717700306301</updated>
       <workItem from="1717700308028" duration="7266000" />
       <workItem from="1717739451174" duration="2187000" />
-      <workItem from="1717749533015" duration="9980000" />
+      <workItem from="1717749533015" duration="14038000" />
+      <workItem from="1717772019479" duration="2181000" />
     </task>
     <servers />
   </component>

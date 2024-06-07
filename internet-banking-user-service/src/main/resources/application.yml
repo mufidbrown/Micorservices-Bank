@@ -27,7 +27,9 @@ app:
       server-url: http://localhost:8080/auth
       realm: mufid-internet-banking
       clientId: internet-banking-api-client
-      client-secret: S9i1xx6zNIYZfPkWangeVGxLyLhr9TTd
+      client-secret: sAXKSIBkQTDvQr1sVtfkICCQWWyBdKLI
+
+
 
 
 

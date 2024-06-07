@@ -16,14 +16,17 @@ public class KeycloakUserService {
 
     private final KeycloakManager keyCloakManager;
 
+
     public Integer createUser(UserRepresentation userRepresentation) {
         Response response = keyCloakManager.getKeyCloakInstanceWithRealm().users().create(userRepresentation);
         return response.getStatus();
     }
 
+
     public void updateUser(UserRepresentation userRepresentation) {
         keyCloakManager.getKeyCloakInstanceWithRealm().users().get(userRepresentation.getId()).update(userRepresentation);
     }
+
 
 
     public List<UserRepresentation> readUserByEmail(String email) {

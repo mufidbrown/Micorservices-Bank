@@ -38,13 +38,13 @@ eureka:
                   - StripPrefix=1
 
 
-              ## USER SERVICE
-              - id: internet-banking-user-service
-                uri: lb://banking-core-user-service
-                predicates:
-                  - Path=/user/**
-                filters:
-                  - StripPrefix=1
+#              ## USER SERVICE
+#              - id: internet-banking-user-service
+#                uri: lb://banking-core-user-service
+#                predicates:
+#                  - Path=/user/**
+#                filters:
+#                  - StripPrefix=1
 
               ## FUND TRANSFER SERVICE
               - id: internet-banking-fund-transfer-service
