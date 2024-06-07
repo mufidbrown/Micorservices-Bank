@@ -1,11 +1,12 @@
 package com.mufid.finance.dto;
 
+import com.mufid.finance.entity.Status;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class UserResponse extends AuditAware {
+public class User extends AuditAware {
 
     private Long id;
 

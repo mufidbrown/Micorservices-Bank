@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14458299-b9a5-4ee5-9fb6-48934ece6b8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internet-banking-api-gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-api-gateway/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internet-banking-api-gateway/src/main/java/com/mufid/finance/internet_banking_api_gateway/InternetBankingApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-api-gateway/src/main/java/com/mufid/finance/internet_banking_api_gateway/InternetBankingApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internet-banking-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet-banking-user-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-user-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet-banking-user-service/src/main/java/com/mufid/finance/dto/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-user-service/src/main/java/com/mufid/finance/entity/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet-banking-user-service/src/main/java/com/mufid/finance/dto/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-user-service/src/main/java/com/mufid/finance/dto/UserUpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet-banking-user-service/src/main/java/com/mufid/finance/dto/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-user-service/src/main/java/com/mufid/finance/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet-banking-user-service/src/main/java/com/mufid/finance/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-user-service/src/main/java/com/mufid/finance/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internet-banking-user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/internet-banking-user-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +74,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -110,7 +110,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/Focusing/Microservices-Bank/internet-banking-user-service",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "4be4c8fb53072ce2aba719ee296b25b7"
+    "spring.configuration.checksum": "78c041e4b42b7ffdcfd66c70ce235245"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -150,7 +150,8 @@
       <option name="presentableId" value="Default" />
       <updated>1717700306301</updated>
       <workItem from="1717700308028" duration="7266000" />
-      <workItem from="1717739451174" duration="872000" />
+      <workItem from="1717739451174" duration="2187000" />
+      <workItem from="1717749533015" duration="7107000" />
     </task>
     <servers />
   </component>

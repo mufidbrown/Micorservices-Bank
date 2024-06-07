@@ -1,7 +1,6 @@
 package com.mufid.finance.entity;
 
 import com.mufid.finance.dto.AuditAware;
-import com.mufid.finance.dto.Status;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -10,7 +9,7 @@ import lombok.Setter;
 @Setter
 @Entity
 @Table(name = "user")
-public class User extends AuditAware {
+public class UserEntity extends AuditAware {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
