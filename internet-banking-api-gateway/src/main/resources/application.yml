@@ -54,6 +54,7 @@ eureka:
                 filters:
                   - StripPrefix=1
 
+
       server:
         port: 8082
 
