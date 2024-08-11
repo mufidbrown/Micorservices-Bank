@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @EnableEurekaServer
 @SpringBootApplication
-public class BankingCoreServiceRegistryApplication {
+public class InternetBankingServiceRegistryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BankingCoreServiceRegistryApplication.class, args);
+		SpringApplication.run(InternetBankingServiceRegistryApplication.class, args);
 	}
 
 }
