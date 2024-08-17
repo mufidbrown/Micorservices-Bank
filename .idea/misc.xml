@@ -8,6 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/internet-banking-fund-transfer-service" />
     <file type="web" url="file://$PROJECT_DIR$/internet-banking-service-registry" />
     <file type="web" url="file://$PROJECT_DIR$/internet-banking-user-service" />
+    <file type="web" url="file://$PROJECT_DIR$/internet-banking-utility-payment-service" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

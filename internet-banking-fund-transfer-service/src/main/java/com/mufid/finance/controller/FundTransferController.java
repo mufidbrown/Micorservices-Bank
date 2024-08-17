@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/v1/transfer")
 public class FundTransferController {
     private final FundTransferService fundTransferService;
-    @PostMapping("create")
+    @PostMapping("/create")
     public ResponseEntity sendFundTransfer(@RequestBody FundTransferRequest fundTransferRequest) {
         log.info("Got fund transfer request from API {}", fundTransferRequest.toString());
         return ResponseEntity.ok(fundTransferService.fundTransfer(fundTransferRequest));
