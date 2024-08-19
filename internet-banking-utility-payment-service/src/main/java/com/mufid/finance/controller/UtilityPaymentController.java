@@ -19,7 +19,7 @@ public class UtilityPaymentController {
         return ResponseEntity.ok(utilityPaymentService.readPayments(pageable));
     }
 
-    @PostMapping
+    @PostMapping("/create")
     public ResponseEntity processPayment(@RequestBody UtilityPaymentRequest paymentRequest) {
         return ResponseEntity.ok(utilityPaymentService.utilPayment(paymentRequest));
     }
